@@ -1,20 +1,25 @@
-div {
-    width: 100px;
-    height: 100px;
-    background-color: black;
-    display: inline-block;
+tr:only-child {
+    background-color: blue;
+    color: white;
 }
-
-div ~ div {
-    margin-left: 10px;
+tbody>tr:nth-child(2n+1)>td:not(:first-child) {
+    background-color: white; 
 }
-
-div:nth-child(2n+1){
-    background-color: red;
+tbody>tr:nth-child(2n)>td:not(:first-child) {
+    background-color: rgb(172, 172, 172); 
 }
-div:nth-child(2n){
-    background-color: green;
+tbody>tr:nth-child(2n+1)>td:first-child {
+    background-color: green; 
+    color: white;
 }
-div:nth-child(3n){
-background-color: blue;
+tbody>tr:nth-child(2n)>td:first-child {
+    background-color: rgba(66, 223, 66, 0.74); 
+    color: white;
+}
+table {
+    text-align: center;
+}
+button {
+    background-color: blue;
+    color: white;
 }
