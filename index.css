@@ -23,3 +23,15 @@ button {
     background-color: blue;
     color: white;
 }
+table {
+    margin: 0 auto;
+    margin-top: 20vh;
+    width: 70vw;
+    height: 40vh;
+}
+td {
+    height: 5vh;
+}
+body {
+    background-color: azure;
+}
