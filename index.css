@@ -28,6 +28,7 @@ table {
     margin-top: 20vh;
     width: 70vw;
     height: 40vh;
+    border-collapse: collapse;
 }
 td {
     height: 5vh;
